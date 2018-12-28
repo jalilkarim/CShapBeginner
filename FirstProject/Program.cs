@@ -40,6 +40,11 @@ namespace FirstProject
 
             // ***** OPERATORS *****
 
+            int opOne = 1;
+            int opTwo = opOne++;
+            Console.WriteLine("Posfix Increment ( b = a++): opOne = " + opOne + " opTwo = " + opTwo);
+            int opThree = ++opOne;
+            Console.WriteLine("Prefix Increment (b = ++a: opOne = " + opOne + " opThree = " + opThree);
 
         }
     }

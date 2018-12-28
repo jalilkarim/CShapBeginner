@@ -38,9 +38,9 @@ namespace FirstProject
                 Console.WriteLine("4. There was an EXCEPTION catched while converting that Number to Byte. Asshole!!!");
             }
 
-           
+            // ***** OPERATORS *****
 
-            
-    }
+
+        }
     }
 }
